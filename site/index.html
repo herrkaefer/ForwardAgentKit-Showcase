@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f6f8fb">
+  <meta name="description" content="ForwardAgentKit brings tool-using AI agents, multimodal capabilities and native experiences to iOS and macOS apps. Explore the SDK, Linberry and Violet.">
+  <meta property="og:title" content="ForwardAgentKit — Agents that belong in your app">
+  <meta property="og:description" content="A native AI agent SDK. Eleven capability categories. Two real apps: Linberry and Violet.">
+  <meta property="og:type" content="website">
+  <title>ForwardAgentKit — Native AI agents, real app capabilities</title>
+  <link rel="icon" href="assets/mark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="header wrap">
+    <a class="brand" href="#" aria-label="ForwardAgentKit home"><img src="assets/mark.svg" width="30" height="30" alt=""><span>ForwardAgentKit</span></a>
+    <nav aria-label="Main navigation"><a href="#capabilities">Capabilities</a><a href="#apps">The apps</a><a class="creator-link" href="https://github.com/herrkaefer">By herrkaefer <span aria-hidden="true">↗</span></a></nav>
+  </header>
+  <main id="main">
+    <section class="hero wrap" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="small-rule"></span> AI AGENTS, NATIVE BY DESIGN</p>
+        <h1 id="hero-title">Agents that<br>belong <span class="blue">in your app.</span></h1>
+        <p class="hero-description">Give your app an agent that can work with its tools, create useful results, and keep the experience native.</p>
+        <p class="hero-detail">A reusable Swift SDK for iOS and macOS. Built to power both a focused language companion and a general-purpose multimodal agent.</p>
+        <div class="hero-links"><a class="button primary" href="#capabilities">Explore the capabilities <span aria-hidden="true">↓</span></a><a class="text-link" href="#apps">Meet the apps</a></div>
+        <div class="platforms"><span>iOS 17+</span><span>macOS 14+</span><span>Closed-source SDK</span></div>
+      </div>
+      <div class="demo" aria-label="Interactive illustration of an app agent workflow">
+        <div class="demo-top"><span class="demo-label"><img src="assets/mark.svg" width="20" height="20" alt=""> ONE REQUEST. APP-NATIVE RESULTS.</span><span class="demo-index" aria-hidden="true">01 / 03</span></div>
+        <div class="demo-tabs" role="tablist" aria-label="Example workflow">
+          <button type="button" role="tab" aria-selected="true" aria-controls="demo-panel" id="tab-learn" tabindex="0" data-demo="learn">Learn</button>
+          <button type="button" role="tab" aria-selected="false" aria-controls="demo-panel" id="tab-create" tabindex="-1" data-demo="create">Create</button>
+          <button type="button" role="tab" aria-selected="false" aria-controls="demo-panel" id="tab-research" tabindex="-1" data-demo="research">Research</button>
+        </div>
+        <div id="demo-panel" role="tabpanel" aria-labelledby="tab-learn" tabindex="0">
+          <p class="demo-request" id="demo-request">“Explain this phrase, save it for review, and let me hear it.”</p>
+          <ol class="demo-steps" aria-label="Example actions"><li><span class="step-check" aria-hidden="true">✓</span><span id="step-one">Explain with the learner’s context</span></li><li><span class="step-check" aria-hidden="true">✓</span><span id="step-two">Save through the app’s learning tools</span></li><li><span class="step-check" aria-hidden="true">✓</span><span id="step-three">Generate a pronunciation audio artifact</span></li></ol>
+          <div class="demo-result" id="demo-result"><div class="result-heading"><span class="result-symbol" aria-hidden="true">Aa</span><span class="result-type">LEARNING POINT</span><span class="result-tag">Saved for review</span></div><h3>Break the ice</h3><p>Make people feel more relaxed at the start of a conversation.</p><div class="result-foot"><span>“A quick question helped break the ice.”</span><span class="audio-mark" aria-hidden="true">▂ ▅ ▃ ▆ ▂</span></div></div>
+        </div>
+        <p class="demo-caption">Interactive illustration · no live model calls</p>
+      </div>
+    </section>
+    <div class="facts wrap" aria-label="SDK at a glance"><div><strong>11</strong><span>AI capability categories</span></div><div><strong>3</strong><span>Composable Swift libraries</span></div><div><strong>2</strong><span>Apps built with the SDK</span></div><div class="fact-platform"><strong>iOS + macOS</strong><span>Native Apple experiences</span></div></div>
+
+    <section class="section wrap" id="capabilities" aria-labelledby="capabilities-title">
+      <div class="section-heading"><p class="eyebrow">01 / THE COMPONENT</p><div><h2 id="capabilities-title">From conversation<br>to something useful.</h2><p>The agent can act through your app’s tools. The same AI capabilities also work directly from native buttons, views, and workflows.</p></div></div>
+      <div class="feature-grid">
+        <article class="feature feature-main"><span class="feature-number">01</span><h3>An agent that can<br>do the work.</h3><p>Connect natural language to real app actions. Let an agent use your business tools, work with authorized files, and load task-specific skills.</p><div class="action-flow" aria-label="Request, app tools, useful result"><span>A user request</span><span class="flow-line" aria-hidden="true"></span><span>App tools</span><span class="flow-line" aria-hidden="true"></span><strong>A useful result</strong></div><p class="feature-note">The app decides which tools and data are available.</p></article>
+        <article class="feature"><span class="feature-number">02</span><h3>One capability.<br>Two ways to use it.</h3><p>Speech, images, search, and more can be called by an agent or used directly in a native app flow. Choose the interaction that fits the task.</p><div class="paired-labels"><span>Agent tool</span><span>Native app action</span></div></article>
+        <article class="feature"><span class="feature-number">03</span><h3>A conversation<br>you can interact with.</h3><p>Bring choices, editable drafts, images, audio playback, and shareable files into the conversation. Keep results useful beyond the text response.</p><div class="paired-labels"><span>Interactive UI</span><span>Media &amp; artifacts</span></div></article>
+        <article class="feature feature-wide"><span class="feature-number">04</span><div><h3>Continuity, choice, and control.</h3><p>Restore conversations and their artifacts. Manage long contexts, stop a run, or queue a follow-up. Connect providers once, then choose models and priorities independently for each capability.</p></div><div class="control-note"><span>App-owned credentials</span><span>Explicit data access</span><span>Cloud or local-server models</span></div></article>
+      </div>
+      <div class="capability-section">
+        <div class="capability-intro"><h3>A broad set of abilities.<br>A focused app experience.</h3><p>Enable just the capabilities your product needs. Configure their models independently.</p></div>
+        <div class="capability-groups">
+          <div><p class="group-label">THINK &amp; UNDERSTAND</p><ul><li>Agent &amp; text</li><li>Image understanding</li><li>Text embedding</li><li>Structured decisions</li></ul></div>
+          <div><p class="group-label">CREATE &amp; SPEAK</p><ul><li>Image generation &amp; editing</li><li>Speech transcription</li><li>Text to speech</li><li>Music generation</li><li>Video generation</li></ul></div>
+          <div><p class="group-label">FIND &amp; READ</p><ul><li>Web search</li><li>Web extraction</li></ul><p class="catalog-note">Availability depends on the configured provider, model, and account.</p></div>
+        </div>
+      </div>
+      <div class="library-strip"><p class="group-label">ONE SDK, THREE BUILDING BLOCKS</p><div><span><strong>ForwardAgentKit</strong><small>Agent runtime &amp; AI capabilities</small></span><span><strong>ForwardChatUI</strong><small>Native conversation &amp; media UI</small></span><span><strong>ForwardAISettingsUI</strong><small>Shared provider &amp; model settings</small></span></div></div>
+      <p class="ownership-note">Agent orchestration runs inside the app. Inference uses the configured cloud provider or local model server; it is not automatically offline. The app owns its credentials, saved data, and permissions.</p>
+    </section>
+
+    <section class="apps-section" id="apps" aria-labelledby="apps-title"><div class="wrap">
+      <div class="section-heading"><p class="eyebrow">02 / BUILT WITH FORWARDAGENTKIT</p><div><h2 id="apps-title">One foundation.<br>Two different experiences.</h2><p>A specialized learning companion and an open-ended creative assistant. Both use the same agent, conversation, and AI settings components.</p></div></div>
+      <article class="app-card linberry"><div class="app-copy"><div class="app-identity"><img src="assets/linberry.png" width="76" height="76" loading="lazy" alt="Linberry app icon"><div><p class="group-label">LANGUAGE COMPANION / iOS</p><h3>Linberry</h3></div></div><p class="app-tagline">Make everyday language<br>part of your learning.</p><p class="app-description">Understand selected text, translate a phrase, or draft a reply. Save useful learning points, practice with flashcards and exercises, and turn study material into audio lessons.</p><ul class="app-highlights"><li>Context-aware tutoring and saved learning points</li><li>Pronunciation and personalized podcast lessons</li><li>Selected-text learning through the iOS action extension</li></ul><p class="app-sdk"><span>Powered by the SDK</span>App-specific learning tools, interactive drafts, speech, search, and image capabilities.</p><span class="app-status">In development · iOS</span></div><div class="app-visual"><p class="visual-label">AN ILLUSTRATIVE LEARNING FLOW</p><div class="learning-flow"><div><span class="flow-counter">01</span><h4>Encounter</h4><p>A phrase in a message, an article, or a conversation.</p></div><div><span class="flow-counter">02</span><h4>Understand</h4><p>An explanation, natural examples, and pronunciation.</p></div><div><span class="flow-counter">03</span><h4>Keep &amp; practice</h4><p>A saved learning point that becomes review material.</p></div></div><div class="app-visual-foot"><span>Understand</span><span>Remember</span><span>Use it</span></div></div></article>
+      <article class="app-card violet"><div class="app-copy"><div class="app-identity"><img src="assets/violet.png" width="76" height="76" loading="lazy" alt="Violet app icon"><div><p class="group-label">MULTIMODAL AGENT / iOS + macOS</p><h3>Violet</h3></div></div><p class="app-tagline">A native place to explore<br>what your agent can do.</p><p class="app-description">Work with attachments, create images and audio, research the web, and explore all eleven AI capability categories through one conversation on iPhone or Mac.</p><ul class="app-highlights"><li>Image analysis, generation, and editing</li><li>Speech, music, and video tools with media playback</li><li>Search, page extraction, embeddings, and decisions</li></ul><p class="app-sdk"><span>Powered by the SDK</span>The full capability toolkit, shared chat and settings, authorized workspace tools, and saved conversation artifacts.</p><span class="app-status">In development · iOS &amp; native macOS</span></div><div class="app-visual"><p class="visual-label">A MULTIMODAL TOOLKIT, IN ONE CONVERSATION</p><div class="violet-modes"><div><span class="mode-glyph" aria-hidden="true">▧</span><strong>Images</strong><span>Analyze · create · edit</span></div><div><span class="mode-glyph" aria-hidden="true">≋</span><strong>Audio</strong><span>Transcribe · speak · compose</span></div><div><span class="mode-glyph" aria-hidden="true">▷</span><strong>Video</strong><span>Create · track · play</span></div><div><span class="mode-glyph" aria-hidden="true">⌕</span><strong>Research</strong><span>Search · extract · evaluate</span></div></div><div class="app-visual-foot"><span>Attach</span><span>Ask</span><span>Create</span></div></div></article>
+    </div></section>
+    <section class="closing wrap"><p class="eyebrow">DESIGNED &amp; BUILT BY HERRKAEFER</p><h2>From a reusable component<br>to a complete native experience.</h2><p>SDK design, agent integration, native interfaces, and the apps that put them to work.</p><a class="button primary" href="https://github.com/herrkaefer">Explore my GitHub <span aria-hidden="true">↗</span></a></section>
+  </main>
+  <footer class="footer wrap"><a class="brand" href="#"><img src="assets/mark.svg" width="24" height="24" alt=""><span>ForwardAgentKit</span></a><p>Native AI agents. App-owned experiences.</p><a href="https://github.com/herrkaefer">herrkaefer</a></footer>
+</body>
+</html>
